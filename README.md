@@ -136,25 +136,10 @@ Response (example):
 * If Cross-Encoder downloads slowly, run without reranking (the system works fine with FAISS-only).
 * On Windows if `faiss-cpu` fails to install, consider using `conda` or running on WSL.
 
----
-
-## Demo script (short)
-
-1. Build index: `python -m src.build_index`
-2. Run API: `uvicorn src.api:app --reload`
-3. Run UI: `streamlit run ui.py`
-4. Open UI in browser, type a query like: `machine learning applications`
-
----
 
 ## License
 
-Choose and add your preferred license (e.g., MIT).
+Documented created by SRIRAM CHODAVARAPU....
 
----
 
-If you want, I can also:
 
-* generate a ready-to-paste `requirements.txt`,
-* add a `LICENSE` file, or
-* create a short 2-minute demo video script you can record for submission.
